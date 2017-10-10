@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_about_uvce">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:elevation="40dp"
+        app:cardCornerRadius="10dp"
+        android:padding="10dp"
+        android:fitsSystemWindows="true"
+
+        >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="University Visvesvaraya College of Engineering (UVCE) was established in 1917, under the name Government Engineering College, by Bharat Ratna Sir M. Visvesvaraya, and was then affiliated to Bangalore University. It is the fifth engineering college to be established in the country. UVCE is a constituent college of Bangalore University which gives it a special status of a university.UVCE is one of the few technical institutions in the country that is vested with the status of a university. It is one of the oldest technical institutions in the country, imparting technical education leading to B.E, B.Arch, M.E, M.Arch and PhD degrees in the various disciplines of Engineering and Architecture. The college is approved by the AICTE and the Government of Karnataka. The departments are accredited with five A+ for three years by the National Board of Accreditation, New Delhi. UVCE has a NAAC rating of five stars for the past four consecutive years.[when?] The college receives financial aid[3] under the TEQIP program from the World Bank."
+        android:textSize="25sp"
+        android:layout_marginBottom="10dp"/>
+    </android.support.v7.widget.CardView>
+</android.support.v4.widget.NestedScrollView>

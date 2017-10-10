@@ -1,5 +1,6 @@
 package uvce.com.inspiron170;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -22,6 +23,7 @@ public class HomeScreen extends AppCompatActivity
         setContentView(R.layout.activity_home_screen);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -73,12 +75,24 @@ public class HomeScreen extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.about_uvce) {
-            // Handle the camera action
+            Intent about_uvce = new Intent(this, about_uvce.class);
+            startActivity(about_uvce);
+
         } else if (id == R.id.about_tpo) {
+            Intent about_tpo = new Intent(this, about_tpo.class);
+            startActivity(about_tpo);
+
 
         } else if (id == R.id.about_inspiron) {
+            Intent about_inspiron = new Intent(this, about_inspiron.class);
+            startActivity(about_inspiron);
+
 
         } else if (id == R.id.gallery) {
+            Intent gallery = new Intent(this, gallery.class);
+            startActivity(gallery);
+
+
 
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

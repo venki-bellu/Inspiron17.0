@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uvce.com.inspiron170.about_tpo">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        app:cardCornerRadius="5dp"
+        >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="
+The Training and Placement Office was started by Dr. M Channa Reddy in 1989. The current placement officer is Dr. Thriveni J, Professor, Department of Computer Science and Engineering.
+
+OUR MISSION
+To act as a liaison between the industry and students in order to fulfill the ambition of the students in getting the right job. Ensure placements for students of all branches of the college.
+
+OUR VISION
+To help students to achieve their career objectives through training in soft and technical skills and exposure to corporate environment. We focus not only on maximum placements but also on the diversity and variety of companies from all sectors of industries."/>
+    </android.support.v7.widget.CardView>
+
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

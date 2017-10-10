@@ -18,6 +18,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".about_inspiron"
+            android:parentActivityName=".HomeScreen" />
+        <activity
+            android:name=".about_tpo"
+            android:parentActivityName=".HomeScreen" />
+        <activity
+            android:name=".about_uvce"
+            android:parentActivityName=".HomeScreen" />
+        <activity android:name=".gallery"
+            android:parentActivityName=".HomeScreen"/>
     </application>
 
 </manifest>
