@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1072354094780",
+    "firebase_url": "https://inspiron-17.firebaseio.com",
+    "project_id": "inspiron-17",
+    "storage_bucket": "inspiron-17.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072354094780:android:b3ac94ee5ad17037",
+        "android_client_info": {
+          "package_name": "uvce.com.inspiron170"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072354094780-hi3lsmlvpvmet6q9pjpiuhatb6pv6jdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvL0cL49UEZZc3QOWVzSZYpMX2jCtrl3Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
