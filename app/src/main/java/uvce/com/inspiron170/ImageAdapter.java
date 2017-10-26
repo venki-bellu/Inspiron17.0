@@ -6,10 +6,6 @@ import android.widget.ImageView;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
-/**
- * Created by MANOHAR on 07-10-2017.
- */
-
 
 public class ImageAdapter extends BaseAdapter {
     private Context mContext;
@@ -36,9 +32,9 @@ public class ImageAdapter extends BaseAdapter {
         if (convertView == null) {
             // if it's not recycled, initialize some attributes
             imageView = new ImageView(mContext);
-            imageView.setLayoutParams(new GridView.LayoutParams(500, 500));
+            imageView.setLayoutParams(new GridView.LayoutParams(1000, 1000));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            imageView.setPadding(16, 16, 16, 16);
+            imageView.setPadding(0, 0, 0, 0);
         } else {
             imageView = (ImageView) convertView;
         }
