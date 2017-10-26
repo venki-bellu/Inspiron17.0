@@ -99,4 +99,9 @@ public class HomeScreen extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    public void openEventsActivity(View view)
+    {
+        startActivity(new Intent(HomeScreen.this,EventsHomePage.class));
+    }
 }
