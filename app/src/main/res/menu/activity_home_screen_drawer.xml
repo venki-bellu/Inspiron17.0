@@ -20,5 +20,12 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="GALLERY" />
 
+        <item
+            android:id="@+id/location"
+            android:icon="@drawable/ic_location_on_black_24dp"
+            android:title="LOCATE US" />
+
+
+
     </group>
 </menu>

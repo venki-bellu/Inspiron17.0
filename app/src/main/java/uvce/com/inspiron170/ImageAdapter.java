@@ -7,8 +7,20 @@ import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
 
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
+
 public class ImageAdapter extends BaseAdapter {
     private Context mContext;
+    // references to our images
+    private Integer[] mThumbIds = {
+            R.drawable.uvce, R.drawable.uvce,
+            R.drawable.uvce, R.drawable.ic_menu_manage};
 
     public ImageAdapter(Context c) {
         mContext = c;
@@ -32,9 +44,10 @@ public class ImageAdapter extends BaseAdapter {
         if (convertView == null) {
             // if it's not recycled, initialize some attributes
             imageView = new ImageView(mContext);
-            imageView.setLayoutParams(new GridView.LayoutParams(1000, 1000));
+            imageView.setLayoutParams(new GridView.LayoutParams(1150, 1150));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            imageView.setPadding(0, 0, 0, 0);
+            imageView.setPadding(0, 10, 0, 10);
+
         } else {
             imageView = (ImageView) convertView;
         }
@@ -43,10 +56,7 @@ public class ImageAdapter extends BaseAdapter {
         return imageView;
     }
 
-    // references to our images
-    private Integer[] mThumbIds = {
-            R.drawable.uvce, R.drawable.uvce,
-            R.drawable.uvce, R.drawable.uvce,
 
-    };
+
+
 }

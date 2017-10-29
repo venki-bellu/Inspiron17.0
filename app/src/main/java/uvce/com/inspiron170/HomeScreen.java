@@ -82,19 +82,20 @@ public class HomeScreen extends AppCompatActivity
             Intent about_tpo = new Intent(this, about_tpo.class);
             startActivity(about_tpo);
 
-
         } else if (id == R.id.about_inspiron) {
             Intent about_inspiron = new Intent(this, about_inspiron.class);
             startActivity(about_inspiron);
-
 
         } else if (id == R.id.gallery) {
             Intent gallery = new Intent(this, gallery.class);
             startActivity(gallery);
 
-
-
+        } else if (id == R.id.location) {
+            Intent location = new Intent(this,location.class);
+            startActivity(location);
         }
+
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
